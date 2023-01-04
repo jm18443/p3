@@ -7,6 +7,34 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    .main {
+        border: 1px solid green;
+        float: left;
+        min-height: 180px;
+        margin: 2px;
+        padding: 10px;
+        min-width: 117px;
+        position: relative;
+    }
+
+    .gfg {
+        font-size: 40px;
+        color: green;
+        font-weight: bold;
+        tect-align: center
+    }
+
+    .geeks {
+        text-align: center;
+    }
+
+    #bottom {
+        position: absolute;
+        bottom:0;
+        left: 0;
+    }
+</style>
 </head>
 
 <body>
@@ -23,7 +51,7 @@
     
     <div class="row">
       <div class="col-md-5">
-        <div class="well">
+        <div class="well" id="bottom">
           <h3>Year:</h3>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
