@@ -86,7 +86,8 @@ function buildPlots(id) {
         var layout1 = {
             
             xaxis: {title:'OTU ID'},
-            width: window.width
+            height: 600,
+            width: 600
         };
 
       
